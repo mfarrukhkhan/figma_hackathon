@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Payment = () => {
   return (
     
-    <div className='w-[1440px] h-[1240px] bg-gray-50 gap-[32px]'>
+    <div className='w-[1440px] h-[1239px] bg-gray-50 gap-[32px]'>
       
       {/* Form Container */}
       <div className="min-h-screen max-h-[2176px] max-w-[852px] py-10 px-6 relative top-[24px] gap-[32px]">
