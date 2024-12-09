@@ -7,8 +7,8 @@ import Payment from "./components/Payment";
 export default function Home() {
   return (
     <div>
-    {/* <Payment /> */}
-<Hero />
+    <Payment />
+{/* <Hero /> */}
 </div>
   );
 }
