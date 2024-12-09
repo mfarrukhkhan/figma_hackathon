@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Footer from "./Footer";
 import { FaStar } from "react-icons/fa6";
 import { CiStar } from "react-icons/ci";
 

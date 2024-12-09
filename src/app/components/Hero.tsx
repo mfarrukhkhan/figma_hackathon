@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { HiMiniArrowsUpDown } from "react-icons/hi2";
 import { IoMdRadioButtonOn } from "react-icons/io";
 import { FaAngleDown } from "react-icons/fa";
