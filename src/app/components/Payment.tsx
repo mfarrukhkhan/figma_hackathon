@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { FaStar } from "react-icons/fa6";
 import { CiStar } from "react-icons/ci";
 
@@ -258,7 +259,7 @@ const Payment = () => {
           </p>
         </div>
         <div className="flex gap-4 self-start mt-8">
-          <img
+          <Image
             loading="lazy"
             src="image 8.png"
             alt="Nissan GT-R vehicle"

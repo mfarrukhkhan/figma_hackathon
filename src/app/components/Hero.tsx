@@ -6,6 +6,7 @@ import { FaHeart } from "react-icons/fa6";
 import { IoPeople } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import Footer from "./Footer";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -26,7 +27,7 @@ const Hero = () => {
           Rental Car
         </button>
         <div className="w-[406px] h-[116px] absolute left-[137px] top-[234px]">
-          <img src="image7.png" />
+          <Image src="image7.png" alt="herocar"/>
         </div>
       </div>
       <div className="w-[640px] h-[360px] border rounded-[10px] absolute left-[736px] top-[32px] bg-[#3563E9]">
@@ -45,7 +46,7 @@ const Hero = () => {
           Rental Car
         </button>
         <div className="w-[406px] h-[116px] absolute left-[137px] top-[234px]">
-          <img src="image 8.png" />
+          <Image src="image 8.png" alt="herocar1"/>
         </div>
       </div>
       <div className="w-[582px] h-[132px] absolute left-[64px] top-[424px] border rounded-[10px]">
@@ -165,7 +166,7 @@ const Hero = () => {
                 </div>
                 <FaHeart className="text-red-500" />
               </div>
-              <img
+              <Image
                 src="car.png"
                 className="object-contain self-center mt-16 aspect-[3.23] max-w-[232px] w-[232px]"
                 alt="Koenigsegg Sport car side view"
@@ -178,7 +179,7 @@ const Hero = () => {
                   className="flex gap-1.5 items-start tracking-tight leading-5 whitespace-nowrap"
                   role="listitem"
                 >
-                  <img
+                  <Image
                     src="gas-station.png"
                     alt="Fuel capacity icon"
                     className="object-contain shrink-0 w-6 aspect-square"
@@ -189,7 +190,7 @@ const Hero = () => {
                   className="flex gap-1 items-start whitespace-nowrap"
                   role="listitem"
                 >
-                  <img
+                  <Image
                     src="manual.png"
                     alt="Transmission type icon"
                     className="object-contain shrink-0 w-6 aspect-square"
@@ -235,7 +236,7 @@ const Hero = () => {
               </div>
               <FaRegHeart />
             </div>
-            <img
+            <Image
               src="image 8.png"
               alt="Nissan GT-R sports car"
               className="object-contain self-center mt-16 max-w-full aspect-[3.18] w-[204px]"
@@ -249,7 +250,7 @@ const Hero = () => {
                 className="flex gap-1.5 items-start tracking-tight whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="gas-station.png"
                   alt="Fuel capacity icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -260,7 +261,7 @@ const Hero = () => {
                 className="flex gap-1 items-start whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="manual.png"
                   alt="Transmission type icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -307,7 +308,7 @@ const Hero = () => {
               </div>
               <FaHeart className="text-red-500" />
             </div>
-            <img
+            <Image
               src="Rolls.png"
               className="object-contain self-center mt-16 aspect-[3.23] max-w-[232px] w-[232px]"
               alt="Rolls-Royce car side view"
@@ -320,7 +321,7 @@ const Hero = () => {
                 className="flex gap-1.5 items-start tracking-tight leading-5 whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="gas-station.png"
                   alt="Fuel capacity icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -331,7 +332,7 @@ const Hero = () => {
                 className="flex gap-1 items-start whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="manual.png"
                   alt="Transmission type icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -376,7 +377,7 @@ const Hero = () => {
               </div>
               <FaRegHeart />
             </div>
-            <img
+            <Image
               src="image 8.png"
               alt="Nissan GT-R sports car"
               className="object-contain self-center mt-16 max-w-full aspect-[3.18] w-[204px]"
@@ -390,7 +391,7 @@ const Hero = () => {
                 className="flex gap-1.5 items-start tracking-tight whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="gas-station.png"
                   alt="Fuel capacity icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -401,7 +402,7 @@ const Hero = () => {
                 className="flex gap-1 items-start whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="manual.png"
                   alt="Transmission type icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -456,7 +457,7 @@ const Hero = () => {
                 </div>
                 <FaRegHeart  />
               </div>
-              <img
+              <Image
                 src="New Rush.png"
                 className="object-contain self-center mt-16 aspect-[3.20] max-w-[232px]"
                 alt="All New Rush car side view"
@@ -469,7 +470,7 @@ const Hero = () => {
                   className="flex gap-1.5 items-start tracking-tight leading-5 whitespace-nowrap"
                   role="listitem"
                 >
-                  <img
+                  <Image
                     src="gas-station.png"
                     alt="Fuel capacity icon"
                     className="object-contain shrink-0 w-6 aspect-square"
@@ -480,7 +481,7 @@ const Hero = () => {
                   className="flex gap-1 items-start whitespace-nowrap"
                   role="listitem"
                 >
-                  <img
+                  <Image
                     src="manual.png"
                     alt="Transmission type icon"
                     className="object-contain shrink-0 w-6 aspect-square"
@@ -527,7 +528,7 @@ const Hero = () => {
               </div>
               <FaHeart className="text-red-500"/>
             </div>
-            <img
+            <Image
               src="CR-V1.png"
               alt="CR - V"
               className="object-contain self-center mt-16 max-w-full aspect-[3.18] w-[248px] h-[90px]"
@@ -541,7 +542,7 @@ const Hero = () => {
                 className="flex gap-1.5 items-start tracking-tight whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="gas-station.png"
                   alt="Fuel capacity icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -552,7 +553,7 @@ const Hero = () => {
                 className="flex gap-1 items-start whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="manual.png"
                   alt="Transmission type icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -599,7 +600,7 @@ const Hero = () => {
               </div>
               <FaRegHeart />
             </div>
-            <img
+            <Image
               src="Terios.png"
               className="object-contain self-center mt-16 aspect-[3.23] max-w-[248px] h-[90px]"
               alt="Rolls-Royce car side view"
@@ -612,7 +613,7 @@ const Hero = () => {
                 className="flex gap-1.5 items-start tracking-tight leading-5 whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="gas-station.png"
                   alt="Fuel capacity icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -623,7 +624,7 @@ const Hero = () => {
                 className="flex gap-1 items-start whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="manual.png"
                   alt="Transmission type icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -669,7 +670,7 @@ const Hero = () => {
               <FaHeart className="text-[#ED3F3F]" />
               
             </div>
-            <img
+            <Image
               src="CR-V.png"
               alt="CR - V car"
               className="object-contain self-center mt-16 max-w-full aspect-[3.18] w-[248px] h-[90px]"
@@ -683,7 +684,7 @@ const Hero = () => {
                 className="flex gap-1.5 items-start tracking-tight whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="gas-station.png"
                   alt="Fuel capacity icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -694,7 +695,7 @@ const Hero = () => {
                 className="flex gap-1 items-start whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="manual.png"
                   alt="Transmission type icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -747,7 +748,7 @@ const Hero = () => {
                 </div>
                 <FaHeart className="text-red-500" />
               </div>
-              <img
+              <Image
                 src="MG ZX.png"
                 className="object-contain self-center mt-16 aspect-[3.20] max-w-[265px]"
                 alt="MG ZX Exclusice car side view"
@@ -760,7 +761,7 @@ const Hero = () => {
                   className="flex gap-1.5 items-start tracking-tight leading-5 whitespace-nowrap"
                   role="listitem"
                 >
-                  <img
+                  <Image
                     src="gas-station.png"
                     alt="Fuel capacity icon"
                     className="object-contain shrink-0 w-6 aspect-square"
@@ -771,7 +772,7 @@ const Hero = () => {
                   className="flex gap-1 items-start whitespace-nowrap"
                   role="listitem"
                 >
-                  <img
+                  <Image
                     src="manual.png"
                     alt="Transmission type icon"
                     className="object-contain shrink-0 w-6 aspect-square"
@@ -818,7 +819,7 @@ const Hero = () => {
               </div>
               <FaHeart className="text-red-500"/>
             </div>
-            <img
+            <Image
               src="New MG ZS.png"
               alt="New MG ZS"
               className="object-contain self-center mt-16 max-w-full aspect-[3.18] h-[90px]"
@@ -832,7 +833,7 @@ const Hero = () => {
                 className="flex gap-1.5 items-start tracking-tight whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="gas-station.png"
                   alt="Fuel capacity icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -843,7 +844,7 @@ const Hero = () => {
                 className="flex gap-1 items-start whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="manual.png"
                   alt="Transmission type icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -890,7 +891,7 @@ const Hero = () => {
               </div>
               <FaHeart className="text-red-500"/>
             </div>
-            <img
+            <Image
               src="MG ZX Excite.png"
               className="object-contain self-center mt-16 aspect-[3.23] max-w-[248px] h-[90px]"
               alt="MG ZX Excite car side view"
@@ -903,7 +904,7 @@ const Hero = () => {
                 className="flex gap-1.5 items-start tracking-tight leading-5 whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="gas-station.png"
                   alt="Fuel capacity icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -914,7 +915,7 @@ const Hero = () => {
                 className="flex gap-1 items-start whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="manual.png"
                   alt="Transmission type icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -960,7 +961,7 @@ const Hero = () => {
               <FaRegHeart  />
               
             </div>
-            <img
+            <Image
               src="New MG ZS1.png"
               alt="New MG ZS car"
               className="object-contain self-center mt-16 max-w-full aspect-[3.18] w-[248px] h-[90px]"
@@ -974,7 +975,7 @@ const Hero = () => {
                 className="flex gap-1.5 items-start tracking-tight whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="gas-station.png"
                   alt="Fuel capacity icon"
                   className="object-contain shrink-0 w-6 aspect-square"
@@ -985,7 +986,7 @@ const Hero = () => {
                 className="flex gap-1 items-start whitespace-nowrap"
                 role="listitem"
               >
-                <img
+                <Image
                   src="manual.png"
                   alt="Transmission type icon"
                   className="object-contain shrink-0 w-6 aspect-square"
