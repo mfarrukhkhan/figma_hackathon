@@ -3,8 +3,6 @@ import { HiMiniArrowsUpDown } from "react-icons/hi2";
 import { IoMdRadioButtonOn } from "react-icons/io";
 import { FaAngleDown } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa6";
-import { BsFillFuelPumpFill } from "react-icons/bs";
-import { TbSteeringWheel } from "react-icons/tb";
 import { IoPeople } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import Footer from "./Footer";
@@ -1025,7 +1023,6 @@ const Hero = () => {
         Show more car
         </button>
         <p className="font-medium text-[14px] relative left-[670px] top-[-40px] text-[#90A3BF]">120 Car</p>
-
       </div>
       </div>
       <Footer />
