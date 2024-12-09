@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex w-[1440px] h-[480px] absolute top-[2244px] bg-slate-300'>
+    <div className='flex w-[1440px] h-[480px] absolute top-[2125px]'>
         <div className='w-[292px] h-[108px] absolute top-[80px] left-[60px] gap-[16px] space-y-[16px]'>
         <div>
             <h1 className="w-[148px] h-[44px] text-[#3563E9] text-[32px] leading-[48px] font-[700px]">MORENT</h1>
